@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.americanada.variables;
+
+/**
+ *
+ * @author mike
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int myVar;
+        
+        myVar = 50;
+        System.out.println(myVar);
+        
+        int anotherVar = 100;
+        System.out.print(anotherVar);
+        
+        myVar = anotherVar;
+        System.out.println(myVar);
+        
+        anotherVar = 200;
+        System.out.print(anotherVar);
+        
+        System.out.println(myVar);
+        
+        int totalVar = myVar + anotherVar;
+        System.out.println(totalVar);
+        
+        totalVar = 500;
+        System.out.println(totalVar);
+    }
+    
+}

@@ -15,9 +15,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int myVar;
+        //int myVal = 5;
         
-        myVar = 50;
+       /* myVar = 50;
         System.out.println(myVar);
         
         int anotherVar = 100;
@@ -36,6 +36,19 @@ public class Main {
         
         totalVar = 500;
         System.out.println(totalVar);
+        */
+        //int myVal = 50;
+        //myVal -= 5;
+        
+        //System.out.println(myVal++);
+        //System.out.println(myVal);
+       
+        int result = 100;
+        int val1 = 5;
+        int val2 = 10;
+        result /= val1 * val2;
+        System.out.println(result);
     }
+
     
 }
